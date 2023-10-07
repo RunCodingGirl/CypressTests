@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "baseUrl": "cypress",
+        "module": "commonjs",
+        "experimentalDecorators": true,
+        "strict": true,
+        "target": "es5",
+        "lib": ["es5", "dom", "ES2015"],
+        "esModuleInterop": true,
+        "downlevelIteration": true,
+        "types": ["cypress", "@testing-library/cypress", "node"],
+      },
+    "include": ["node_modules/cypress", "./cypress/**/*.js", "cypress/e2e/add item to favorite.cy.ts", "cypress/e2e/bag-page.spec.cy.ts", "cypress/e2e/login-page.spec.cy.ts", "cypress/e2e/logout-page.spec.cy.ts", "cypress/e2e/favorite-page.spec.cy.ts", "cypress/e2e/home-page.spec.cy.ts", "cypress/e2e/login with invalid credentials.cy.ts", "cypress/e2e/start-page.cy.ts", "cypress/e2e/url-page.cy.ts", "cypress/support/selectors/common-selector.ts", "cypress/support/selectors/home-page-selector.ts", "cypress/support/selectors/login-selector.ts", "cypress/support/commands.ts"]
+}
